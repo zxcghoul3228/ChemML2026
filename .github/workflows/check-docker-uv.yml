@@ -1,7 +1,7 @@
 name: "Проверка: Docker + uv практикум"
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - "dir_1/**"
 
@@ -12,15 +12,21 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Checkout
+      - name: Checkout PR
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+
+      - name: Checkout скрипт проверки из main
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.sha }}
+          git checkout ${{ github.event.pull_request.base.sha }} -- scripts/check_docker_uv.py
 
       - name: Определить директорию студента
         id: detect
         run: |
-          CHANGED=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- dir_1/)
+          CHANGED=$(git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD -- dir_1/)
 
           if [ -z "$CHANGED" ]; then
             echo "Нет изменений в dir_1/"
