@@ -49,3 +49,24 @@ ChemML2026/
 | 12 | Тума Анна | 515 | [mealyb](https://github.com/mealyb) |
 | 13 | Vakhrushev Andrey | 515 | [Vakhrus](https://github.com/Vakhrus) |
 | 14 | Жуков Максим | 515 | [KiberGnida01](https://github.com/KiberGnida01) |
+| 15 | Shiyanenko Konstantin | 515 | [k0tyak1t](https://github.com/k0tyak1t) |
+
+## Оценки
+
+### Stage 1: Docker + uv практикум
+
+| № | Фамилия Имя | GitHub | Баллы | Оценка | PR |
+|---|-------------|--------|-------|--------|----|
+| 1 | Afanasiev Alex | alexeyafanasiev100 | 10/11 | Отлично | [#24](https://github.com/Ega2901/ChemML2026/pull/24) |
+| 2 | Dudakov Ivan | zxcghoul3228 | 11/11 | Отлично | [#22](https://github.com/Ega2901/ChemML2026/pull/22) |
+| 3 | Карлащук Владимир | AndreiTarkovskii | 10.5/11 | Отлично | [#31](https://github.com/Ega2901/ChemML2026/pull/31) |
+| 4 | Kholmanskikh Daniil | zarama9514 | 10.5/11 | Отлично | [#17](https://github.com/Ega2901/ChemML2026/pull/17) |
+| 5 | Kudriavtseva Sofia | Sophie080703 | 10.5/11 | Отлично | [#26](https://github.com/Ega2901/ChemML2026/pull/26) |
+| 6 | Kuliev Rauf | raufkuliev50-gif | 9.5/11 | Отлично | [#28](https://github.com/Ega2901/ChemML2026/pull/28) |
+| 7 | Kuznetsov Mikhail | mikuev04 | 11/11 | Отлично | [#19](https://github.com/Ega2901/ChemML2026/pull/19) |
+| 8 | Schneider Mark | schneidermu | 11/11 | Отлично | [#18](https://github.com/Ega2901/ChemML2026/pull/18) |
+| 9 | Shiyanenko Konstantin | k0tyak1t | 11/11 | Отлично | [#16](https://github.com/Ega2901/ChemML2026/pull/16) |
+| 10 | Шлыков Иван | dangerdie | 11/11 | Отлично | [#25](https://github.com/Ega2901/ChemML2026/pull/25) |
+| 11 | Тума Анна | mealyb | 10.5/11 | Отлично | [#23](https://github.com/Ega2901/ChemML2026/pull/23) |
+| 12 | Vakhrushev Andrey | Vakhrus | 11/11 | Отлично | [#27](https://github.com/Ega2901/ChemML2026/pull/27) |
+| 13 | Жуков Максим | KiberGnida01 | 11/11 | Отлично | [#29](https://github.com/Ega2901/ChemML2026/pull/29) |
